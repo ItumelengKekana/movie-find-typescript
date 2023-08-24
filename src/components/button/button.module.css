@@ -1,0 +1,36 @@
+.nextButton {
+	background-color: #0b5ba5;
+	width: 165px;
+	height: 56px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.nextButton p {
+	font-family: "Open Sans";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #fff;
+}
+
+.previousButton {
+	background: transparent;
+	width: 165px;
+	height: 56px;
+	border-radius: 8px;
+	border: 1.5px solid #0b5ba5;
+	cursor: pointer;
+}
+
+.previousButton p{
+	font-family: "Open Sans";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #0b5ba5;
+}
