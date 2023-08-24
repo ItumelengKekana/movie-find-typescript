@@ -24,6 +24,8 @@ function App() {
 	const [total, setTotal] = React.useState("");
 	const [type, setType] = React.useState("");
 	//make page number a state variable and then call a function that paginates by incrementing or decrementing the page number
+
+	//eslint-disable-next-line
 	const [pageNumber, setPageNumber] = React.useState<number>(1);
 
 	const selectTypeHandler = (e: ChangeEvent<HTMLInputElement>): void => {
